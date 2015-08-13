@@ -1,0 +1,8 @@
+F 1e-7/((0.5e-6)*0.25e-6) Volume load
+w_d 1.6271E6[Hz] Drive Frequency
+min_w_d w_d-.5e2
+max_w_d w_d+.5e2
+step_w_d (max_w_d-min_w_d)/500
+mid_w_d1 w_d-1e3
+mid_w_d2 w_d+1e3
+F_2 1e-7*1e-5 Total Volume load
